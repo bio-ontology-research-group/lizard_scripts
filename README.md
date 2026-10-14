@@ -38,8 +38,6 @@ The Python scripts need Python 3.8 or later and only the standard library, excep
 | `compare_fasta.py` | Two FASTA files by sequence, e.g. `gffread` output against the deposited protein and CDS files |
 | `repeat_mask_union.py` | Bases covered by each RepeatMasker run and by their union (the gene-prediction mask) |
 
-One-line commands used between these steps are in `COMMANDS.md`.
-
 ## Input files
 
 Files deposited in the figshare items are not repeated here. From the assembly item: the final FASTAs, `hap1_final.agp`, `hap2_final.agp`, the Hifiasm contig FASTAs, `out_JBAT.FINAL.agp` and `chromosome_names.tsv`. From the annotation item: `final_transcripts_keep_list.txt`, the BRAKER3 outputs, `interproscan.tsv`, `pfam.txt` and the other annotation files. Tool outputs that are not deposited (DIAMOND hits, SwissProt titles, kegg_parser CSV, RepeatMasker `.out`, the soft-masked BRAKER3 input) are produced by the steps described in the article.
